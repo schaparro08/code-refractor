@@ -9,23 +9,23 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* Sets the padding, font family and background color to blue for the header and the nav bar. Also makes the navbar text white. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* sets the company logo display to in-line*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Sets the letters seo in the company logo to a different color */
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #7e807d;
 }
-
+/* Sets location of the nav bar to the right side of the scree, padding, font family and font size to 20px */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,21 +33,21 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*  sets the marker for the nav bar list */
 .header nav ul {
     list-style-type: none;
 }
-
+/* sets the size of the margine to 25px from left, lists the display as in-line block for the nav bar */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Sets the anchor text color to white, removes the appearance of decorative lines for the list in the nav bar */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* sets all paragraph font size to 16px */
 p {
     font-size: 16px;
 }
