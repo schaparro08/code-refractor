@@ -55,38 +55,51 @@ p {
 .hero {
     /* sets height of background image */
     height: 810px;
-    
+/* Sets the width of the image to 100 */
     width: 100%;
+    /* Increases margin from next section */
     margin-bottom: 25px;
     /* Sets the background image */
     background-image: url("../images/digital-marketing-meeting.jpg");
+    /* sets size of background image */
     background-size: cover;
+    /* centers the position of the background image */
     background-position: center;
 }
-
-.float-left {
+/* images for articles float left */
+article img {
     float: left;
     margin-right: 25px;
 }
-
+/* images to article floats right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
 .content {
+    /* Limits the width of the article contnent to 75% of the page */
     width: 75%;
+    /* allows the width and height of an article to be set */
     display: inline-block;
+    /* sets the margin 20px from the eft side of the screen */
     margin-left: 20px;
 }
 
 .benefits {
+    /* sets the margin 20 px from the right for the aside */
     margin-right: 20px;
+    /* adds 20px padding around the aside */
     padding: 20px;
+
     clear: both;
+    /* Aside floats to the right */
     float: right;
+    /* width is reserved for 20 percent of the page */
     width: 20%;
+
     height: 100%;
+    /* font family is set to Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
@@ -99,46 +112,66 @@ p {
 
 
 .benefit-aside h3 {
+    /* margin for the aside is set to 32px */
     margin-bottom: 10px;
+    /* text is centered */
     text-align: center;
 } 
+
 .benefit-aside img {
+    /* displays img n a new line and takes up the width  */
     display: block;
+    /* sets images with a margin of 10px and automatically centers */
     margin: 10px auto;
+    /* sets width of pictures to be max 150px */
     max-width: 150px;
 }
 
 
 
 .search-engine {
+    /* allows a 20px margin between boxes */
     margin-bottom: 20px;
+    /* padding around boxes is set to 50px */
     padding: 50px;
+    /* height of box is 300px */
     height: 300px;
+    /* font family is set to  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background color is set to blue */
     background-color: #0072bb;
+    /* text color is set to white */
     color: #ffffff;
 }
 
 
 
 .search-engine img {
+    /* sets image sized to 200px */
     max-height: 200px;
 }
 
 article h2 {
+    /* sets margine between title and text 20px */
     margin-bottom: 20px;
+    /* sets font size to 36px */
     font-size: 36px;
 }
 
 
 footer {
+    /* sets footer padding to 30px */
     padding: 30px;
     clear: both;
+    /* sets font-family to 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* centers text */
     text-align: center;
 }
 
 footer h2 {
+    /* sets footer font-size 20px */
     font-size: 20px;
 }
 
